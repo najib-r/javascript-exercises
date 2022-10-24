@@ -5,6 +5,7 @@ const sumAll = function(start, end) {
     else if (typeof start != "number" || typeof end != "number") {
         return "ERROR";
     }
+    
     let sum = 0;
     if (start < end) {
         for (let i = start; i <= end; i++) {
